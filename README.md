@@ -24,16 +24,23 @@ Sample Output :
 Refresh: 1 second(s)
 CPU Usage:
 4.6%
-Memory Usage
+Memory Usage: 
+
+
+
 Total RAM:
 19645 MB
+
 Used RAM:
 4708 MB
 Usage %:
+
 24.0%
 Disk Space Usage 
+
 Total Disk:
 62 GB
+
 Used Disk:
 50 GB
 Usage %:
