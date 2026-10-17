@@ -1,5 +1,5 @@
 Real-Time System Monitor
-A lightweight, terminal-based system monitoring tool developed in C as part of the Introduction to Computer Science (ICS) group project under Prof. Palash Das.
+A lightweight, terminal-based system monitoring tool developed in C as part of the Introduction to Computer Science (ICS) group project.
 Features
 - CPU Monitoring: Displays CPU utilization percentage.
 - Memory Monitoring: Shows total RAM, used RAM, and utilization percentage.
