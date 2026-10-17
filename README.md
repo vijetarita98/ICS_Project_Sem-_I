@@ -1,56 +1,38 @@
-# ICS_Project_Sem-_I
-ICS  Group Project
-How to Run the Program .
+Real-Time System Monitor
+A lightweight, terminal-based system monitoring tool developed in C as part of the Introduction to Computer Science (ICS) group project under Prof. Palash Das.
+Features
+- CPU Monitoring: Displays CPU utilization percentage.
+- Memory Monitoring: Shows total RAM, used RAM, and utilization percentage.
+- Disk Monitoring: Displays total and used disk space on the root filesystem.
+- Live Dashboard: Periodically refreshes system statistics.
+- Automatic Monitoring: Retrieves system information without requiring user input.
+Tech Stack
+- C
+- GCC Compiler
+- Linux / WSL Ubuntu
+How to Run
+Extract the repository and open a terminal in the project directory.
+Compile the program:
+gcc project.c -o system_monitor
 
-1. Extract the ZIP file
-Right-click on the ZIP file and choose “Extract Here” or use the command:
-unzip project.zip
-2. Open a terminal on a Linux system (or WSL Ubuntu on Windows).
-Compile the code using GCC (make sure project.c exists in the folder):
-3.Compile the code using GCC (make sure project.c exists in the folder):
-gcc project.c 
-4.Run the program:
-./a.out
+Run the executable:
+./system_monitor
 
-Hence ,Expected Input :
-No user input is required.
-The program automatically reads system information from Linux files:
-
-Expected Output :
-The program displays a live console dashboard with CPU, memory, and disk usage. It updates every half-second.
-
-Sample Output : 
+The program displays a live dashboard of CPU, memory, and disk usage. Press Ctrl + C to stop execution.
+Sample Output
 --- Real-Time System Monitor ---
-Refresh: 1 second(s)
-CPU Usage:
-4.6%
-Memory Usage: 
+CPU Usage: 4.6%
+
+Memory Usage:
+Total RAM: 19645 MB
+Used RAM: 4708 MB
+Usage: 24.0%
+
+Disk Space Usage:
+Total Disk: 62 GB
+Used Disk: 50 GB
+Usage: 80.6%
 
 
-
-Total RAM:
-19645 MB
-
-Used RAM:
-4708 MB
-Usage %:
-
-24.0%
-Disk Space Usage 
-
-Total Disk:
-62 GB
-
-Used Disk:
-50 GB
-Usage %:
-80.6%
-----------------------------
-
-  So  ,
-    CPU Usage – Percentage of time CPU was busy during the last interval.
-    Memory Usage – Amount of memory used versus total memory, along with percentage.
-    Disk Usage – Amount of disk used versus total disk space on the root filesystem, with percentage.
-Note : 
-    Values change in real-time as system usage changes.
-    The display is refreshed using system("clear") so only the latest values are shown .
+Note: The displayed values are illustrative and vary depending on system usage.
+Note: The displayed values are illustrative and vary depending on system usage.
